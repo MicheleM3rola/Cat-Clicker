@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contInjection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 80%;
+}
+
+.box-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.contInjection .box-img img {
+  width: 60%;
+}
+
+.contInjection .box-img h1 {
+  padding: 10px;
+}
+
+.contInjection .box-img p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.listCats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 30%;
+  height: 100vh;
+  background-color: blanchedalmond;
+}
+
+.listCats h1 {
+  padding: 60px;
+  text-transform: uppercase;
+}
+
+.listCats ul {
+  list-style: none;
+}
+
+.listCats ul li {
+  padding: 15px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+#box-admin-btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+  margin-top: 15px;
+}
+
+.admin-btn {
+  padding: 8px;
+  width: 20%;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+}
+
+.formBox {
+  width: 30%;
+  height: 25%;
+  margin-top: 15px;
+  border: 1px solid black;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.containerForm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+}
+
+.boxName {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.boxImg {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.boxClick {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.endBtn {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#exit {
+  padding: 3px;
+  width: 50px;
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+}
+#save {
+  padding: 3px;
+  width: 50px;
+  text-transform: uppercase;
+  background-color: green;
+  color: white;
+}

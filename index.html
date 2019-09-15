@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer type="text/javascript" src="./js/recode.js"></script>
+
+    <title>Cat clicker</title>
+  </head>
+  <body>
+    <div class="listCats">
+      <h1>Select a cat</h1>
+      <ul id="cats"></ul>
+    </div>
+
+    <div class="contInjection">
+      <div id="cat-box" class="box-img">
+        <h1 id="name"></h1>
+        <img id="img" src="" alt="cat-img" />
+        <p id="msg">You Clicked me <span class="counter"></span> times</p>
+      </div>
+      <div id="box-admin-btn">
+        <button class="admin-btn">Admin</button>
+      </div>
+      <div class="formBox">
+        <form action="" id="forJs">
+          <div class="containerForm">
+            <div class="boxName">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="nameF" />
+            </div>
+            <div class="boxImg">
+              <label for="img">Image</label>
+              <input type="url" name="img" id="imgF" />
+            </div>
+            <div class="boxClick">
+              <label for="clicksy">Clicks</label>
+              <input type="number" name="clicksy" id="clicksy" />
+            </div>
+            <div class="endBtn">
+              <button id="exit">Exit</button>
+              <button id="save">Save</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
